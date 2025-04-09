@@ -1,0 +1,165 @@
+:root {
+  --primary-color: hsl(214, 84%, 56%);
+  --secondary-color: hsl(74, 84%, 56%);
+  --text-color: hsl(0, 0%, 31%);
+  --bg-color: hsl(0, 12%, 91%);
+  --bg-card-color: hsla(0, 48%, 83%, 0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 1s ease, color 1s ease;
+}
+
+body.dark {
+  background: linear-gradient(135deg, #020008d8, #16213e);
+  color: #f05806;
+  main h2, main h3, main h4 {
+    border-left: 5px solid var(--primary-color);
+    padding-left: 10px;
+    margin-top: 40px;
+  }
+}
+
+
+.main-content {
+  margin-left: 250px; 
+  padding: 20px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 75px;
+  padding: 0 1.5em;
+  background-color: var(--bg-card-color);
+}
+
+
+.switches {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle-theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.toggle-theme_icon {
+  margin-right: 0.5em;
+  width: 20px;
+}
+
+.toggle-theme_text {
+  font-size: 0.8rem;
+}
+
+
+.mi-boton {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: grab;
+  transition: background 0.4s ease, transform 0.2s ease;
+}
+
+.mi-boton:hover {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  transform: scale(1.05);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.container input,
+.container textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.sidebar {
+  width: 250px;
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+main h2, main h3, main h4 {
+  border-left: 5px solid var(--secondary-color);
+  padding-left: 10px;
+  margin-top: 40px;
+}
+
+h1::before{content:"👨‍💻"
+  ;
+}

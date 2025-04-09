@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <aside class="sidebar">
+    <div>
+      <img src="assets/images/foto.jpg" width="120" alt="logo">
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#Tecnologias">Tecnologías</a></li>
+        <li><a href="#Experiencia">Experiencia</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <div class="main-content">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon-theme" class="toggle-theme_icon">
+          <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+        </div>
+      </div>
+      <div class="colors">
+        <div class="colors_item colors_item--blue"></div>
+        <div class="colors_item colors_item--green"></div>
+        <div class="colors_item colors_item--purple"></div>
+        <div class="colors_item colors_item--orange"></div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Fausto Giordano Magliacano</h1>
+      <p>Estudiante de programación Full Stack</p>
+
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Apasionado de la tecnología y de la programación.</p>
+      </section>
+
+      <hr>
+
+      <section id="Tecnologias">
+        <h3>Tecnologías</h3>
+        <p>Por el momento ninguna</p>
+      </section>
+
+      <section id="Experiencia">
+        <h4>Experiencia</h4>
+        <p>Mucha, pero ninguna en programación</p>
+      </section>
+
+      <section id="Contacto">
+        <h2>Contacto</h2>
+        <p>¿Quiere contactarme?</p>
+        <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+
+        <form class="container">
+          <input type="text" name="nombre" placeholder="Nombre" required>
+          <input type="email" name="email" placeholder="E-mail" required>
+          <input type="text" name="asunto" placeholder="Asunto" required>
+          <textarea rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+          <button class="mi-boton">Enviar mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2025</p>
+      <div>
+        <a href="mailto:faustogiordanom@gmail.com">
+          <img src="assets/images/sobre.png" alt="email" class="email-icon">
+        </a>
+        <span style="color: red;">faustogiordanom@gmail.com</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
