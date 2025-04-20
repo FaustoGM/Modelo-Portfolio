@@ -1,0 +1,27 @@
+@import url('styles.css');
+
+.toggle-theme_icon {
+    margin-right: 0.5em;
+    width: 20px;
+  }
+
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+  color: var(--primary-color);
+}
+
+#sobre-mi p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1em;
+  max-width: 800px;
+}
+
+#sobre-mi {
+  padding: 1em;
+}
+
+#sobre-mi h1::before {
+  content: "💅 ";
+}

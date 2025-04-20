@@ -1,0 +1,35 @@
+@import url('styles.css');
+
+.toggle-theme_icon {
+    margin-right: 0.5em;
+    width: 20px;
+  }
+
+#experiencia {
+  padding: 1em;
+}
+
+
+/* Solo dios sabe porque no aparece, no me quedo otra que ponerlo en el index */
+
+
+#experiencia h1::before {
+  content: "🧰 ";
+}
+
+#experiencia p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#experiencia ul {
+  list-style-type: square;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+#experiencia li {
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+}

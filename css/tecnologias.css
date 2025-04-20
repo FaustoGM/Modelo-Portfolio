@@ -1,0 +1,76 @@
+@import url('styles.css');
+
+.toggle-theme_icon {
+    margin-right: 0.5em;
+    width: 20px;
+  }
+
+#tecnologias {
+  padding: 1em;
+}
+
+#tecnologias h1 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+  color: var(--primary-color);
+}
+
+#tecnologias h1::before {
+  content: "💻 ";
+}
+
+#tecnologias p {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+#tecnologias ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#tecnologias li {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#tecnologias li i {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tech-list li {
+    position: relative;
+    padding: 12px 50px 12px 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: inherit;
+  }
+  
+  .tech-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+  }
+  
