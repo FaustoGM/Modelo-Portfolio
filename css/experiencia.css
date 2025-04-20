@@ -33,3 +33,53 @@
   margin-bottom: 0.5em;
   font-size: 1rem;
 }
+
+/* copi el codigo de un pagina para el neon 😓 */
+
+
+.destacado {
+  color: #ff1e1e;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
+  animation: neonPulse 1.8s ease-in-out 0s 4 forwards;
+  text-shadow:
+    0 0 5px #ff1e1e,
+    0 0 10px #ff1e1e,
+    0 0 20px #ff1e1e,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000;
+}
+
+@keyframes neonPulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow:
+      0 0 5px #ff1e1e,
+      0 0 10px #ff1e1e,
+      0 0 20px #ff1e1e,
+      0 0 40px #ff0000,
+      0 0 80px #ff0000;
+  }
+  50% {
+    transform: scale(1.35);
+    opacity: 0.85;
+    text-shadow:
+      0 0 10px #ff4c4c,
+      0 0 20px #ff4c4c,
+      0 0 40px #ff4c4c,
+      0 0 80px #ff4c4c,
+      0 0 120px #ff4c4c;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow:
+      0 0 5px #ff1e1e,
+      0 0 10px #ff1e1e,
+      0 0 20px #ff1e1e,
+      0 0 40px #ff0000,
+      0 0 80px #ff0000;
+  }
+}
