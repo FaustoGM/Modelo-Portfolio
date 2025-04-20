@@ -19,3 +19,8 @@
     margin-bottom: 2rem;
   }
   
+.shadow {
+    color: rgba(0, 251, 113, 0.507);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
