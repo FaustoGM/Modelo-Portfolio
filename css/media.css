@@ -1,10 +1,9 @@
 .media-section {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 500px;
-  width: 100%;
-  margin: 3%;
+    background-color: #222;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: auto; /* lo empuja al fondo dentro del flex */
+    padding: 0.5em;
   }
   
   .media-container {
@@ -22,8 +21,5 @@
   }
   
   
-  audio {
-    width: 90%;
-    max-width: 500px;
-  }
+  
   
