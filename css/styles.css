@@ -129,22 +129,19 @@ body.dark {
   text-decoration: none;
 }
 
-/* 🎯 BREAKPOINT RESPONSIVE para móviles */
 @media (max-width: 768px) {
   .sidebar {
     width: 180px;
-    font-size: 0.9em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
     padding: 10px;
   }
 
   .main-content {
     margin-left: 180px;
     padding: 10px;
-  }
-
-  .container {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
