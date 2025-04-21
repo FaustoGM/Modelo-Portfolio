@@ -1,0 +1,68 @@
+/* Breakpoint 1: celulares chicos */
+@media (max-width: 360px) {
+    .main-content {
+      padding: 1em;
+    }
+  
+    .sidebar {
+      position: static;
+      width: 100%;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    .tech-img svg {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .media-section {
+      max-width: 100%;
+    }
+  }
+  
+  /* Breakpoint 2: tablets (768px) */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      position: relative;
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  
+    .tech-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .media-container {
+      gap: 1em;
+    }
+  }
+  
+  /* Breakpoint 3: laptops (1024px) */
+  @media (max-width: 1024px) {
+    .main-content {
+      padding: 2em;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tech-img svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  

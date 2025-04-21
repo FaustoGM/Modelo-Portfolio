@@ -1,13 +1,5 @@
 @import url('styles.css');
 
-#para-mas-nota {
-    padding: 2rem;
-    text-align: center;
-    background-color: #1e1e1e;
-    color: #fff;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-  }
 
   .para-mas-nota {
     padding: 2rem;
