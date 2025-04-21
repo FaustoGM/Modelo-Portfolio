@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/tecnologias.css">
   <link rel="stylesheet" href="css/experiencia.css">
   <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="css/para-mas-nota.css">
 
@@ -50,7 +52,7 @@
     <main>
       <div id="para-mas-nota" class="para-mas-nota">
       <h1>Fausto Giordano Magliacano</h1>
-      <p>Estudiante de programación Full Stack</p>
+      <p class="shadow"> Estudiante de programación Full Stack</p>
     </div>
 
       
@@ -144,16 +146,40 @@
       </section>
     </main>
 
-    <footer>
+    <section class="media-section">
+      <h2>👨‍💻 Nace un programador Full Stack</h2>
+    
+      <div class="media-container">
+        <div class="video-wrapper">
+          <video controls autoplay muted>
+            <source src="assets/videos/shallow.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+    
+        <audio controls autoplay loop>
+          <source src="assets/audios/shallow.mp3" type="audio/mpeg">
+          Tu navegador no soporta el audio.
+        </audio>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+
+    <footer class="footer">
       <p>© 2025 Fausto Giordano</p>
-      <div>
-        <a href="mailto:faustogiordanom@gmail.com">
-          <img src="assets/images/sobre.png" alt="email" class="email-icon">
+      <div class="footer-contact">
+        <a href="mailto:faustogiordanom@gmail.com" class="footer-icon" title="Enviar correo">
+          <i class="fas fa-envelope"></i>
         </a>
-        <span style="color: red;">faustogiordanom@gmail.com</span>
+        <span>faustogiordanom@gmail.com</span>
       </div>
     </footer>
-  </div>
+    
 
   <script src="js/scripts.js"></script>
 </body>

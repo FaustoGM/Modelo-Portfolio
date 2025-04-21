@@ -1,0 +1,29 @@
+.media-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  margin: 3%;
+  }
+  
+  .media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+  
+  .video-wrapper video {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  audio {
+    width: 90%;
+    max-width: 500px;
+  }
+  
