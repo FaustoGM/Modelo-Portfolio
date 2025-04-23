@@ -132,7 +132,6 @@ body.dark {
   text-decoration: none;
 }
 
-/* ===================== MEDIA QUERIES ===================== */
 
 @media (max-width: 1024px) {
   .sidebar {
@@ -184,7 +183,6 @@ body.dark {
   }
 }
 
-/* ===================== DECORATIVO ===================== */
 
 main h2, main h3, main h4 {
   border-left: 5px solid var(--secondary-color);

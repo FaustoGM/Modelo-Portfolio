@@ -1,4 +1,4 @@
-/* Breakpoint 1: celulares chicos */
+
 @media (max-width: 360px) {
     .main-content {
       padding: 1em;
@@ -28,7 +28,7 @@
     }
   }
   
-  /* Breakpoint 2: tablets (768px) */
+  
   @media (max-width: 768px) {
     .sidebar {
       width: 100%;
@@ -49,7 +49,7 @@
     }
   }
   
-  /* Breakpoint 3: laptops (1024px) */
+  
   @media (max-width: 1024px) {
     .main-content {
       padding: 2em;

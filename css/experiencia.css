@@ -10,7 +10,7 @@
 }
 
 
-/* Solo dios sabe porque no aparece, no me quedo otra que ponerlo en el index */
+
 
 
 #experiencia h1::before {
@@ -33,9 +33,6 @@
   margin-bottom: 0.5em;
   font-size: 1rem;
 }
-
-/* copi el codigo de un pagina para el neon 😓 */
-
 
 .destacado {
   color: #ff1e1e;
