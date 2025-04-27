@@ -27,7 +27,7 @@
 }
 
 form.container {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #304a56, #203a43, #2c5364);
   padding: 20px;
   border-radius: 10px;
   max-width: 500px;
@@ -39,7 +39,7 @@ form.container textarea {
   border: 1px solid #ccc;
   border-radius: 6px;
   background-color: #fff;
-  color: #000;
+  color: #000000;
 }
 
 body.dark form.container input,
@@ -58,3 +58,4 @@ form.container label {
 .mi-boton i {
   margin-right: 6px;
 }
+

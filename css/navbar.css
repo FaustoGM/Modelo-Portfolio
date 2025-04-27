@@ -1,0 +1,70 @@
+/* navbar.css */
+
+body.dark .navbar-nav .nav-link {
+    color: #ff7c02; /* o el color claro que quieras en dark mode */
+  }
+  
+  body.dark .navbar-brand {
+    color: #f0f0f0; /* Para que también el nombre "Fausto Giordano" cambie */
+  }
+
+/* Navbar inicial transparente */
+#navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  /* Navbar cuando scrolleás */
+  #navbar.scrolled {
+    background-color: var(--bg-color); /* mismo color que el body */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* sombrita opcional */
+  }
+  
+  /* Color de los links */
+  .navbar-nav .nav-link {
+    color: var(--text-color);
+    font-weight: bold;
+    margin-left: 20px;
+    transition: color 0.3s;
+  }
+  
+  /* Hover en links */
+  .navbar-nav .nav-link:hover {
+    color: #0d6efd; /* Azul para hover */
+  }
+  
+  /* Marca / nombre */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--text-color);
+  }
+  
+  /* Dark mode (ya lo tenías) */
+  body.dark #navbar.scrolled {
+    background-color: var(--bg-color); /* también se adapta en dark */
+  }
+  /* Navbar normal */
+#navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  /* Cuando hacés scroll */
+  #navbar.scrolled {
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cuando es Dark Mode + Scroll */
+  body.dark #navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+  }
+  
+  /* Cuando es Dark Mode SIN scroll (navbar transparente inicial) */
+  body.dark #navbar {
+    background-color: transparent;
+  }
+  
