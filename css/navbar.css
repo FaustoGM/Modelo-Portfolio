@@ -69,18 +69,19 @@ body.dark .navbar-nav .nav-link {
   }
   
   .mario-salto {
-    position: absolute;
-    top: 49px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
+    position:fixed;
+    top: 50px; 
+    right: 20px; 
+    width: 80px;
+    height: 80px;
     animation: salto 2s infinite;
-    z-index: 999;
+    z-index: 999; 
   }
   
+  
   .mario-salto img {
-    width: 200%;
-    height: 200%;
+    width: 120%;
+    height: 120%;
     object-fit: contain;
   }
   
@@ -95,4 +96,7 @@ body.dark .navbar-nav .nav-link {
   body.scrolled .mario-salto {
     display: none;
   }
+  
+  
+  
   
