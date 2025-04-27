@@ -15,12 +15,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Script para cambiar la navbar al hacer scroll
 window.addEventListener('scroll', function() {
   const navbar = document.getElementById('navbar');
   if (window.scrollY > 50) {
     navbar.classList.add('scrolled');
   } else {
     navbar.classList.remove('scrolled');
+  }
+});
+
+window.addEventListener('scroll', function() {
+  const body = document.body;
+  if (window.scrollY > 100) { 
+    body.classList.add('scrolled');
+  } else {
+    body.classList.remove('scrolled');
   }
 });

@@ -68,3 +68,31 @@ body.dark .navbar-nav .nav-link {
     background-color: transparent;
   }
   
+  .mario-salto {
+    position: absolute;
+    top: 49px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    animation: salto 2s infinite;
+    z-index: 999;
+  }
+  
+  .mario-salto img {
+    width: 200%;
+    height: 200%;
+    object-fit: contain;
+  }
+  
+  
+  @keyframes salto {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  
+  
+  body.scrolled .mario-salto {
+    display: none;
+  }
+  
