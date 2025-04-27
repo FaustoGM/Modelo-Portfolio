@@ -39,7 +39,7 @@
   font-weight: bold;
   text-align: center;
   font-size: 1.6rem;
-  animation: neonPulse 1.8s ease-in-out 0s 4 forwards;
+  animation: neonPulse 1.8s ease-in-out 0s 50 forwards;
   text-shadow:
     0 0 5px #ff1e1e,
     0 0 10px #ff1e1e,

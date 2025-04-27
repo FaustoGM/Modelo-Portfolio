@@ -1,29 +1,103 @@
 .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   background-color: #222;
-    color: #fff;
-    padding: 1.5em 2em;
+  color: #fff;
+  padding: 1.5em 2em;
+  font-size: 0.95rem;
+  border-top: 1px solid #333;
+  gap: 1.5em;
+  position: relative;
+}
+
+.footer-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+}
+
+
+.footer-left {
+  flex: 1;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-video {
+  width: 180px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.footer-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+
+.footer-video-text {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #f5d76e; 
+  font-weight: 600;
+  text-align: left;
+}
+
+.footer-center {
+  flex: 1;
+  justify-content: center;
+  font-weight: 500;
+  color: #ccc;
+  text-align: center;
+}
+
+
+.footer-right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+
+.footer-icon {
+  color: #f44336;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #ff6b6b;
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
     text-align: center;
-    font-size: 0.95rem;
-    border-top: 1px solid #333;
   }
-  
-  .footer-contact {
-    display: flex;
+  .footer-left, .footer-center, .footer-right {
     justify-content: center;
     align-items: center;
-    gap: 0.5em;
-    margin-top: 0.5em;
+    flex-direction: column;
   }
-  
-  .footer-icon {
-    color: #f44336; /* rojo */
-    font-size: 1.2em;
-    text-decoration: none;
-    transition: transform 0.3s ease;
+  .footer-video {
+    margin-bottom: 0.5rem;
   }
-  
-  .footer-icon:hover {
-    transform: scale(1.2);
-    color: #ff6b6b;
+  .footer-video-text {
+    text-align: center;
   }
-  
+}
