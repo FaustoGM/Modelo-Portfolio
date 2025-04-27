@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Fausto Giordano, estudiante de programación Full Stack.">
   <title>Portfolio - Fausto Giordano</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/navbar.css">
@@ -165,18 +166,20 @@
         <h1></i> Contacto</h1>
        
 
-        <form class="container">
+        <form class="container" action="https://formspree.io/f/movdvbnk" method="POST">
           <p>¿Querés contactarme?</p>
           <p>Completá el siguiente formulario y te responderé a la brevedad.</p>
-
+        
           <input type="text" name="nombre" placeholder="Nombre" required>
           <input type="email" name="email" placeholder="E-mail" required>
           <input type="text" name="asunto" placeholder="Asunto" required>
           <textarea rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+        
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde tu Portfolio!">
+        
           <button class="mi-boton"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
         </form>
-      </section>
-    </main>
+        
 
 
 <footer class="footer">
@@ -184,10 +187,12 @@
 
     <div class="footer-left">
       <div class="footer-video">
-        <video controls src="assets/videos/shallow.mp4" autoplay muted loop></video>
-        <p class="footer-video-text">Nace un programador 🌟</p>
-      </div>
+        <video controls src="assets/videos/shallow.mp4" autoplay muted loop playsinline></video>
+      </div> 
+    
+      <p class="footer-video-text">Nace un programador 🌟</p> 
     </div>
+    
 
     <div class="footer-center">
       <a href="mailto:faustogiordanom@gmail.com" class="footer-icon" title="Enviar correo">
